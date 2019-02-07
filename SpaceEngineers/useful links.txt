@@ -1,0 +1,2 @@
+https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/	-	—правочник по C#
+https://docs.microsoft.com/ru-ru/dotnet/api/system.text.regularexpressions.regex?view=netframework-4.7.2	-	—правочник по регул€рным выражени€м
