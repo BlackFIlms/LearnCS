@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1 - SquareDigits 9119", "Lesson1\Lesson1 - SquareDigits 9119.csproj", "{A7068C8C-C41D-49CA-9A49-242BC6965B72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1(only System namespace) - SquareDigits 9119", "Lesson1(only System namespace) - SquareDigits 9119\Lesson1(only System namespace) - SquareDigits 9119.csproj", "{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A7068C8C-C41D-49CA-9A49-242BC6965B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7068C8C-C41D-49CA-9A49-242BC6965B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7068C8C-C41D-49CA-9A49-242BC6965B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
