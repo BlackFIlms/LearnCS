@@ -8,17 +8,17 @@ namespace Lesson1
 {
     class Program
     {
+        //Variable declaration.
+        public static string itemsInFunction = "Text:";
+        public static string outDigitsString = "";
+        public static int outDigits = 0;
+
         static void Main(string[] args)
         {
-            //Variable declaration.
-            string itemsInFunction = "Text:";
-            string outDigitsString = "";
-            int outDigits = 0;
-
             //Get all items from List.
             foreach (var item in SquareDigits(9119))
             {
-                outDigitsString = outDigitsString + item;
+                Program.outDigitsString = outDigitsString + item;
             }
             //Convert string to int.
             Int32.TryParse(outDigitsString, out outDigits);
@@ -35,7 +35,7 @@ namespace Lesson1
             Console.ReadKey();
         }
 
-        //Function for get square of two digits. Output the List.
+        //The function is designed to get a square of two digits.Output the List.
         public static List<int> SquareDigits(int n)
         {
             List<int> output = new List<int>();
