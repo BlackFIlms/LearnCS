@@ -46,7 +46,7 @@ namespace Lesson1
             return output;
         }
 
-        //This function get every digit from number and put in Enumerable"List".
+        //This function gets every digit from number and puts in Enumerable"List".
         public static IEnumerable<int> GetDigits(int source)
         {
             while (source > 0)
