@@ -12,21 +12,29 @@ class Program
 
 public class Kata
 {
+    //We need smoke weed everyday. ha. joke. We need Variable declaration, in first time.
     public static int[] args1 = new int[0];
     public static int[] args2 = new int[0];
 
     public static int FindSmallestInt(int[] args)
     {
+        //Initialize size of arrays. For normal works vars.
+        //It's bad story. I know. But, arrays, can't works else.
         Array.Resize(ref args1, 0);
         Array.Resize(ref args2, 0);
         Array.Resize(ref args1, args.Length);
+
+        //Copy local var to global var.
         Array.Copy(args, 0, args1, 0, args.Length);
+        //GetSmallestNum.
         int getNum = args1[Array.FindIndex(GetSmallestNum(), SetInt)];
+        //Something console out.
         Console.WriteLine("Array:");
         PrintIndexAndValues(args1);
         Console.WriteLine("Press any key");
         Console.ReadKey();
         Console.WriteLine("Smallest num is:");
+        //return SmallestNum.
         return getNum;
     }
 
