@@ -19,7 +19,8 @@ public class Kata
     public static int FindSmallestInt(int[] args)
     {
         //Initialize size of arrays. For normal works vars.
-        //It's bad story. I know. But, arrays, can't works else.
+        //It's bad story. I know. But, arrays, can't works else, with public class.
+        //For single class it's don't need.
         Array.Resize(ref args1, 0);
         Array.Resize(ref args2, 0);
         Array.Resize(ref args1, args.Length);
