@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3 - Smallest number f
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata Items", "Kata Items", "{9CBD83C5-93D8-4D10-AEBD-A7784E309185}"
 	ProjectSection(SolutionItems) = preProject
-		Lesson3onKata - Smallest number from Array.cs = Lesson3onKata - Smallest number from Array.cs
+		Lesson3 onKata - Smallest number from Array.cs = Lesson3 onKata - Smallest number from Array.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3 - WorksAtErrors", "Lesson3 - WorksAtErrors\Lesson3 - WorksAtErrors.csproj", "{5E875ABA-B224-4FBF-8C15-0A5888217DAD}"
