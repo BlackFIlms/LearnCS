@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4 - BestSolutionFromK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4 - mini", "Lesson4 - mini\Lesson4 - mini.csproj", "{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5 - BouncingBall", "Lesson5 - BouncingBall\Lesson5 - BouncingBall.csproj", "{55068C2A-627C-4787-BD76-6A5A21DD00E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5 - BestSolutionFromKata", "Lesson5 - BestSolutionFromKata\Lesson5 - BestSolutionFromKata.csproj", "{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55068C2A-627C-4787-BD76-6A5A21DD00E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55068C2A-627C-4787-BD76-6A5A21DD00E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55068C2A-627C-4787-BD76-6A5A21DD00E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55068C2A-627C-4787-BD76-6A5A21DD00E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
