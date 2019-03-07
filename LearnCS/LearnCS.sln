@@ -14,11 +14,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata Items", "Kata Items", "{9CBD83C5-93D8-4D10-AEBD-A7784E309185}"
 	ProjectSection(SolutionItems) = preProject
 		Lesson3 onKata - Smallest number from Array.cs = Lesson3 onKata - Smallest number from Array.cs
+		Lesson4 onKata - PrinterErrors.cs = Lesson4 onKata - PrinterErrors.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3 - WorksAtErrors", "Lesson3 - WorksAtErrors\Lesson3 - WorksAtErrors.csproj", "{5E875ABA-B224-4FBF-8C15-0A5888217DAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3 - BestSolutionFromKata", "Lesson3 - BestSolutionFromKata\Lesson3 - BestSolutionFromKata.csproj", "{899CD209-7803-4471-A3B5-EA2129D9A04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4 - PrinterErrors", "Lesson4 - PrinterErrors\Lesson4 - PrinterErrors.csproj", "{3A71BE41-5002-44B8-BFEE-6651A2FE532E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4 - BestSolutionFromKata", "Lesson4 - BestSolutionFromKata\Lesson4 - BestSolutionFromKata.csproj", "{321B0A1B-5D22-4535-A933-4CF4C98E1C48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +55,14 @@ Global
 		{899CD209-7803-4471-A3B5-EA2129D9A04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{899CD209-7803-4471-A3B5-EA2129D9A04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{899CD209-7803-4471-A3B5-EA2129D9A04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A71BE41-5002-44B8-BFEE-6651A2FE532E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A71BE41-5002-44B8-BFEE-6651A2FE532E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A71BE41-5002-44B8-BFEE-6651A2FE532E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A71BE41-5002-44B8-BFEE-6651A2FE532E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321B0A1B-5D22-4535-A933-4CF4C98E1C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321B0A1B-5D22-4535-A933-4CF4C98E1C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321B0A1B-5D22-4535-A933-4CF4C98E1C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321B0A1B-5D22-4535-A933-4CF4C98E1C48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
