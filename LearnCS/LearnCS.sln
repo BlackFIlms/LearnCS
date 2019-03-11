@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5 - BouncingBall", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5 - BestSolutionFromKata", "Lesson5 - BestSolutionFromKata\Lesson5 - BestSolutionFromKata.csproj", "{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson6 - Log", "Lesson6 - Log\Lesson6 - Log.csproj", "{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{D5127D22-4108-4AFA-A107-70013218257B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5127D22-4108-4AFA-A107-70013218257B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5127D22-4108-4AFA-A107-70013218257B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5127D22-4108-4AFA-A107-70013218257B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5127D22-4108-4AFA-A107-70013218257B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
