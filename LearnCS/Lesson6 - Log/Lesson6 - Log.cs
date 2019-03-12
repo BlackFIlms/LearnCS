@@ -329,6 +329,44 @@ class Program
             pow = MathLog(log) / MathLog(logBase);
         }
 
+        //Is a example with use only if structure.
+        /*else if (log > e && logBase > e)
+        {
+            int count = 0;
+            int countBase = 0;
+            while (log > e)
+            {
+                log /= e;
+                count++;
+            }
+            while (logBase > e)
+            {
+                logBase /= e;
+                countBase++;
+            }
+            pow = (count + MathLogSingle(log)) / (countBase + MathLogSingle(logBase));
+        }
+        else if (log > e && logBase <= e)
+        {
+            int count = 0;
+            while (log > e)
+            {
+                log /= e;
+                count++;
+            }
+            pow = (count + MathLogSingle(log)) / MathLogSingle(logBase);
+        }
+        else if (log <= e && logBase > e)
+        {
+            int countBase = 0;
+            while (logBase > e)
+            {
+                logBase /= e;
+                countBase++;
+            }
+            pow = MathLogSingle(log) / (countBase + MathLogSingle(logBase));
+        }*/
+
         return pow;
     }
 
