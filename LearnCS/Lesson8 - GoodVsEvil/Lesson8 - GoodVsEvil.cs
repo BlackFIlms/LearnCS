@@ -12,6 +12,8 @@ class Program
         Console.WriteLine(Good.RandCountOfEachRace());
         Console.WriteLine(Evil.RandCountOfEachRace());
 
+
+
         Console.ReadKey();
     }
 }
@@ -21,8 +23,7 @@ static class Good
     public static string RandCountOfEachRace()
     {
         //example: "1 1 1 1 1 1"
-        Random randGood = new Random();
-        return Rand.RandCount(6, randGood);
+        return Rand.RandCount(6);
     }
 }
 
@@ -31,14 +32,17 @@ static class Evil
     public static string RandCountOfEachRace()
     {
         //example: "1 1 1 1 1 1 1"
-        Random randEvil = new Random();
-        return Rand.RandCount(7, randEvil);
+        return Rand.RandCount(7);
     }
 }
 
 static class Rand
 {
-    public static string RandCount(int count, Random rand)
+    //If create object in function RandCount, then this create new object  instance every time, when this function has been called.
+    //And function Random, create similar values.
+    static Random rand = new Random();
+
+    public static string RandCount(int count)
     {
         string res = "";
         for (int i = 0; i < count; i++)
