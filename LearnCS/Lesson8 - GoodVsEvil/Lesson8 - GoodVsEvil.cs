@@ -2,17 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 class Program
 {
     static void Main(string[] args)
     {
+        string goodSideForces = Good.RandCountOfEachRace();
+        string evilSideForces = Evil.RandCountOfEachRace();
         //Print Values of each side.
-        Console.WriteLine(Good.RandCountOfEachRace());
-        Console.WriteLine(Evil.RandCountOfEachRace());
-
-
+        Console.WriteLine("Forces of the good side:");
+        Console.WriteLine(goodSideForces);
+        Console.WriteLine("Forces of the evil side:");
+        Console.WriteLine(evilSideForces);
+        foreach (var item in Parse.Parser(goodSideForces))
+        {
+            Console.WriteLine(item);
+        }
+        foreach (var item in Parse.Parser(evilSideForces))
+        {
+            Console.WriteLine(item);
+        }
 
         Console.ReadKey();
     }
@@ -53,5 +64,31 @@ static class Rand
                 res += rand.Next(0, 100);
         }
         return res;
+    }
+}
+
+static class Parse
+{
+    public static Array Parser(string z)
+    {
+        string pattern = @"(\d+)\s?";
+        MatchCollection matches = Regex.Matches(z, pattern); //Scan input string with pattern.
+        
+        if (matches.Count > 0)
+        {
+            int[] res = new int[matches.Count];
+            int i = 0;
+            foreach (Match item in matches)
+            {
+                res[i] = int.Parse(Regex.Replace(item.Value, @"\s", "")); //Format and Put into Array each match value.
+                i++;
+            }
+            return res;
+        }
+        else
+        {
+            int[] res = { 0 };
+            return res;
+        }
     }
 }
