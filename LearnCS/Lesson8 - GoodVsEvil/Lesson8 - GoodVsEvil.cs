@@ -9,8 +9,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        string goodSideForces = Good.RandCountOfEachRace();
-        string evilSideForces = Evil.RandCountOfEachRace();
         //Print Values of each side.
         Console.WriteLine("Forces of the good side:");
         Console.WriteLine(goodSideForces);
@@ -29,21 +27,21 @@ class Program
     }
 }
 
-static class Good
+class Good
 {
-    public static string RandCountOfEachRace()
+    private string goodSideForces = Rand.RandCount(6);
+    public string GoodSideForces
     {
-        //example: "1 1 1 1 1 1"
-        return Rand.RandCount(6);
+        get { return goodSideForces; }
     }
 }
 
-static class Evil
+class Evil
 {
-    public static string RandCountOfEachRace()
+    private string evilSideForces = Rand.RandCount(7);
+    public string EvilSideForces
     {
-        //example: "1 1 1 1 1 1 1"
-        return Rand.RandCount(7);
+        get { return evilSideForces; }
     }
 }
 
