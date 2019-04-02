@@ -30,6 +30,10 @@ namespace test
             Console.WriteLine(Math.Log(2.71828182845905));
             Console.WriteLine(Math.E);
             Console.WriteLine(0 % 10);
+
+            var haystack = new object[]{1,2,57345,1414.15487548754, 1, "12542ggbrtt5..","", 329f, 93469d, 90235.11111000001, "needle", 123 ,556};
+            Console.WriteLine(Array.IndexOf(haystack, "needle").ToString());
+
             Console.ReadKey();
         }
 
