@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8 - GoodVsEvil", "Les
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8 - mini", "Lesson8 - mini\Lesson8 - mini.csproj", "{DBACD752-89EF-4006-85D4-A18C1203A2E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8 - BestSolutionFromKata", "Lesson8 - BestSolutionFromKata\Lesson8 - BestSolutionFromKata.csproj", "{F5571F77-061C-4252-9C1D-729FFE3F0E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{DBACD752-89EF-4006-85D4-A18C1203A2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBACD752-89EF-4006-85D4-A18C1203A2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBACD752-89EF-4006-85D4-A18C1203A2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5571F77-061C-4252-9C1D-729FFE3F0E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5571F77-061C-4252-9C1D-729FFE3F0E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5571F77-061C-4252-9C1D-729FFE3F0E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5571F77-061C-4252-9C1D-729FFE3F0E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
