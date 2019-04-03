@@ -20,16 +20,11 @@ class Program
 
     class Side
     {
-        //Set force and worth values of side.
         private int forcesCount = 0;
         private string worth = "";
         private string forces = "";
-
-        //Create private array for all values.
         private int[] worthParsed;
         private int[] forcesParsed;
-
-        //Let's make it possible to get the values of these variables from outside.
         public int ForcesCount
         {
             get { return forcesCount; }
@@ -113,14 +108,14 @@ class Program
         public static Array AssocWorthAndForce(Side obj)
         {
             DefineArrays(obj);
-            int[,] assocWorthAndForce = new int[obj.ForcesParsed.Length, obj.WorthParsed.Length];
+            int[,] assocWorthAndForce = new int[2, obj.WorthParsed.Length];
             for (int i = 0; i < obj.WorthParsed.Length; i++)
             {
-                assocWorthAndForce[i, 1] = Convert.ToInt32(obj.WorthParsed.GetValue(i));
+                assocWorthAndForce[0, i] = Convert.ToInt32(obj.WorthParsed.GetValue(i));
             }
             for (int i = 0; i < obj.ForcesParsed.Length; i++)
             {
-                assocWorthAndForce[i, 2] = Convert.ToInt32(obj.ForcesParsed.GetValue(i));
+                assocWorthAndForce[1, i] = Convert.ToInt32(obj.ForcesParsed.GetValue(i));
             }
 
             return assocWorthAndForce;
@@ -128,20 +123,14 @@ class Program
         public static string BattleResult(Side Good, Side Evil)
         {
             int goodPower = 0;
-            for (int i = 0; i < AssocWorthAndForce(Good).GetLength(0); i++)
+            for (int i = 0; i < AssocWorthAndForce(Good).GetLength(1); i++)
             {
-                for (int j = 0; j < AssocWorthAndForce(Good).GetLength(1); j++)
-                {
-                    goodPower += Convert.ToInt32(AssocWorthAndForce(Good).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Good).GetValue(1,j));
-                }
+                goodPower += Convert.ToInt32(AssocWorthAndForce(Good).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Good).GetValue(1,i));
             }
             int evilPower = 0;
-            for (int i = 0; i < AssocWorthAndForce(Evil).GetLength(0); i++)
+            for (int i = 0; i < AssocWorthAndForce(Evil).GetLength(1); i++)
             {
-                for (int j = 0; j < AssocWorthAndForce(Evil).GetLength(1); j++)
-                {
-                    evilPower += Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(1,j));
-                }
+                evilPower += Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(1,i));
             }
             if (goodPower > evilPower)
                 return "Battle Result: Good triumphs over Evil";

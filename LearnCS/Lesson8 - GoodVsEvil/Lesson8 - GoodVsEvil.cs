@@ -74,7 +74,7 @@ class Program
             //Get and print battle result.
             Console.WriteLine(Logic.BattleResult(Good, Evil, out int goodPower, out int evilPower));
             Console.WriteLine("Sides power:" + "\r\n" + "Good - {0}" + "\r\n" + "Evil - {1}", goodPower, evilPower);
-
+           
             control = ConsoleRestart();
 
             if (control == 'x')
@@ -214,14 +214,15 @@ static class Logic
     public static Array AssocWorthAndForce(Side obj)//Create 2 dimensions array and insert values of side there.
     {
         DefineArrays(obj);
-        int[,] assocWorthAndForce = new int[obj.ForcesParsed.Length, obj.WorthParsed.Length];
+        int[,] assocWorthAndForce = new int[2, obj.WorthParsed.Length];
+
         for (int i = 0; i < obj.WorthParsed.Length; i++)
         {
-            assocWorthAndForce[i, 1] = Convert.ToInt32(obj.WorthParsed.GetValue(i));
+            assocWorthAndForce[0, i] = Convert.ToInt32(obj.WorthParsed.GetValue(i));
         }
         for (int i = 0; i < obj.ForcesParsed.Length; i++)
         {
-            assocWorthAndForce[i, 2] = Convert.ToInt32(obj.ForcesParsed.GetValue(i));
+            assocWorthAndForce[1, i] = Convert.ToInt32(obj.ForcesParsed.GetValue(i));
         }
 
         return assocWorthAndForce;
@@ -231,22 +232,16 @@ static class Logic
     {
         //Get power for Good side.
         int goodPower = 0;
-        for (int i = 0; i < AssocWorthAndForce(Good).GetLength(0); i++)
+        for (int i = 0; i < AssocWorthAndForce(Good).GetLength(1); i++)
         {
-            for (int j = 0; j < AssocWorthAndForce(Good).GetLength(1); j++)
-            {
-                goodPower += Convert.ToInt32(AssocWorthAndForce(Good).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Good).GetValue(1,j));
-            }
+            goodPower += Convert.ToInt32(AssocWorthAndForce(Good).GetValue(0, i)) * Convert.ToInt32(AssocWorthAndForce(Good).GetValue(1, i));
         }
 
         //Get power for Evil side.
         int evilPower = 0;
-        for (int i = 0; i < AssocWorthAndForce(Evil).GetLength(0); i++)
+        for (int i = 0; i < AssocWorthAndForce(Evil).GetLength(1); i++)
         {
-            for (int j = 0; j < AssocWorthAndForce(Evil).GetLength(1); j++)
-            {
-                evilPower += Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(1,j));
-            }
+            evilPower += Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(0, i)) * Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(1, i));
         }
 
         //Compare powers and return result.
@@ -268,22 +263,16 @@ static class Logic
     {
         //Get power for Good side.
         goodPower = 0;
-        for (int i = 0; i < AssocWorthAndForce(Good).GetLength(0); i++)
+        for (int i = 0; i < AssocWorthAndForce(Good).GetLength(1); i++)
         {
-            for (int j = 0; j < AssocWorthAndForce(Good).GetLength(1); j++)
-            {
-                goodPower += Convert.ToInt32(AssocWorthAndForce(Good).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Good).GetValue(1,j));
-            }
+            goodPower += Convert.ToInt32(AssocWorthAndForce(Good).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Good).GetValue(1,i));
         }
 
         //Get power for Evil side.
         evilPower = 0;
-        for (int i = 0; i < AssocWorthAndForce(Evil).GetLength(0); i++)
+        for (int i = 0; i < AssocWorthAndForce(Evil).GetLength(1); i++)
         {
-            for (int j = 0; j < AssocWorthAndForce(Evil).GetLength(1); j++)
-            {
-                evilPower += Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(1,j));
-            }
+            evilPower += Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(0,i)) * Convert.ToInt32(AssocWorthAndForce(Evil).GetValue(1,i));
         }
 
         //Compare powers and return result.
