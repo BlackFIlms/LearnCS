@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2D4E3790-EB44-4187-9713-3B8655217A26}</ProjectGuid>
+    <ProjectGuid>{321B0A1B-5D22-4535-A933-4CF4C98E1C48}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson3___Smallest_number_from_Array</RootNamespace>
-    <AssemblyName>Lesson3 - Smallest number from Array</AssemblyName>
+    <RootNamespace>Lesson4___BestSolutionFromKata</RootNamespace>
+    <AssemblyName>Lesson4 - BestSolutionFromKata</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson3 - Smallest number from Array.cs" />
+    <Compile Include="Lesson04 - BestSolutionFromKata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

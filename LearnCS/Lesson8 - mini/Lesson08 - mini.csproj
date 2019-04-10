@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55068C2A-627C-4787-BD76-6A5A21DD00E0}</ProjectGuid>
+    <ProjectGuid>{DBACD752-89EF-4006-85D4-A18C1203A2E6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson5___BouncingBall</RootNamespace>
-    <AssemblyName>Lesson5 - BouncingBall</AssemblyName>
+    <RootNamespace>Lesson8___mini</RootNamespace>
+    <AssemblyName>Lesson8 - mini</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson5 - BouncingBall.cs" />
+    <Compile Include="Lesson08 - mini.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

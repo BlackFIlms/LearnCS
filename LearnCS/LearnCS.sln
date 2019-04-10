@@ -3,51 +3,57 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1 - SquareDigits 9119", "Lesson1\Lesson1 - SquareDigits 9119.csproj", "{A7068C8C-C41D-49CA-9A49-242BC6965B72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01 - SquareDigits 9119", "Lesson1\Lesson01 - SquareDigits 9119.csproj", "{A7068C8C-C41D-49CA-9A49-242BC6965B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1(only System namespace) - SquareDigits 9119", "Lesson1(only System namespace) - SquareDigits 9119\Lesson1(only System namespace) - SquareDigits 9119.csproj", "{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01(only System namespace) - SquareDigits 9119", "Lesson1(only System namespace) - SquareDigits 9119\Lesson01(only System namespace) - SquareDigits 9119.csproj", "{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson2 - Even or Odd", "Lesson2 - Even or Odd\Lesson2 - Even or Odd.csproj", "{5BC07966-4C05-4E29-87BF-1AE6F449C821}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02 - Even or Odd", "Lesson2 - Even or Odd\Lesson02 - Even or Odd.csproj", "{5BC07966-4C05-4E29-87BF-1AE6F449C821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3 - Smallest number from Array", "Lesson3 - Smallest number from Array\Lesson3 - Smallest number from Array.csproj", "{2D4E3790-EB44-4187-9713-3B8655217A26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson03 - Smallest number from Array", "Lesson3 - Smallest number from Array\Lesson03 - Smallest number from Array.csproj", "{2D4E3790-EB44-4187-9713-3B8655217A26}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata Items", "Kata Items", "{9CBD83C5-93D8-4D10-AEBD-A7784E309185}"
 	ProjectSection(SolutionItems) = preProject
-		Lesson3 onKata - Smallest number from Array.cs = Lesson3 onKata - Smallest number from Array.cs
-		Lesson4 onKata - PrinterErrors.cs = Lesson4 onKata - PrinterErrors.cs
+		Lesson03 onKata - Smallest number from Array.cs = Lesson03 onKata - Smallest number from Array.cs
+		Lesson04 onKata - PrinterErrors.cs = Lesson04 onKata - PrinterErrors.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3 - WorksAtErrors", "Lesson3 - WorksAtErrors\Lesson3 - WorksAtErrors.csproj", "{5E875ABA-B224-4FBF-8C15-0A5888217DAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson03 - WorksAtErrors", "Lesson3 - WorksAtErrors\Lesson03 - WorksAtErrors.csproj", "{5E875ABA-B224-4FBF-8C15-0A5888217DAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3 - BestSolutionFromKata", "Lesson3 - BestSolutionFromKata\Lesson3 - BestSolutionFromKata.csproj", "{899CD209-7803-4471-A3B5-EA2129D9A04E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson03 - BestSolutionFromKata", "Lesson3 - BestSolutionFromKata\Lesson03 - BestSolutionFromKata.csproj", "{899CD209-7803-4471-A3B5-EA2129D9A04E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4 - PrinterErrors", "Lesson4 - PrinterErrors\Lesson4 - PrinterErrors.csproj", "{3A71BE41-5002-44B8-BFEE-6651A2FE532E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04 - PrinterErrors", "Lesson4 - PrinterErrors\Lesson04 - PrinterErrors.csproj", "{3A71BE41-5002-44B8-BFEE-6651A2FE532E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4 - BestSolutionFromKata", "Lesson4 - BestSolutionFromKata\Lesson4 - BestSolutionFromKata.csproj", "{321B0A1B-5D22-4535-A933-4CF4C98E1C48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04 - BestSolutionFromKata", "Lesson4 - BestSolutionFromKata\Lesson04 - BestSolutionFromKata.csproj", "{321B0A1B-5D22-4535-A933-4CF4C98E1C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4 - mini", "Lesson4 - mini\Lesson4 - mini.csproj", "{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04 - mini", "Lesson4 - mini\Lesson04 - mini.csproj", "{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5 - BouncingBall", "Lesson5 - BouncingBall\Lesson5 - BouncingBall.csproj", "{55068C2A-627C-4787-BD76-6A5A21DD00E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05 - BouncingBall", "Lesson5 - BouncingBall\Lesson05 - BouncingBall.csproj", "{55068C2A-627C-4787-BD76-6A5A21DD00E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5 - BestSolutionFromKata", "Lesson5 - BestSolutionFromKata\Lesson5 - BestSolutionFromKata.csproj", "{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05 - BestSolutionFromKata", "Lesson5 - BestSolutionFromKata\Lesson05 - BestSolutionFromKata.csproj", "{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson6 - Log", "Lesson6 - Log\Lesson6 - Log.csproj", "{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson06 - Log", "Lesson6 - Log\Lesson06 - Log.csproj", "{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{D5127D22-4108-4AFA-A107-70013218257B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson6 - LogCompareMyFuncWithCsFunc", "Lesson6 - LogCompareMyFuncWithCsFunc\Lesson6 - LogCompareMyFuncWithCsFunc.csproj", "{6B842F49-097D-4A62-95CE-3FC00CE1770E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson06 - LogCompareMyFuncWithCsFunc", "Lesson6 - LogCompareMyFuncWithCsFunc\Lesson06 - LogCompareMyFuncWithCsFunc.csproj", "{6B842F49-097D-4A62-95CE-3FC00CE1770E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MySolutions", "MySolutions", "{309BC6AA-1FD1-4E8D-9B05-14183A6B9FD3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Calc\Calc.csproj", "{AB853DA7-A512-4C96-9774-1EA2EA82B484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson7 - SumOfPositive", "Lesson7 - SumOfPositive\Lesson7 - SumOfPositive.csproj", "{29FC25B1-86C7-42E1-8D0B-F93ED7068805}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson07 - SumOfPositive", "Lesson7 - SumOfPositive\Lesson07 - SumOfPositive.csproj", "{29FC25B1-86C7-42E1-8D0B-F93ED7068805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8 - GoodVsEvil", "Lesson8 - GoodVsEvil\Lesson8 - GoodVsEvil.csproj", "{61EBA46B-7A9E-431E-B8C2-E5CA170A169B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson08 - GoodVsEvil", "Lesson8 - GoodVsEvil\Lesson08 - GoodVsEvil.csproj", "{61EBA46B-7A9E-431E-B8C2-E5CA170A169B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8 - mini", "Lesson8 - mini\Lesson8 - mini.csproj", "{DBACD752-89EF-4006-85D4-A18C1203A2E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson08 - mini", "Lesson8 - mini\Lesson08 - mini.csproj", "{DBACD752-89EF-4006-85D4-A18C1203A2E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8 - BestSolutionFromKata", "Lesson8 - BestSolutionFromKata\Lesson8 - BestSolutionFromKata.csproj", "{F5571F77-061C-4252-9C1D-729FFE3F0E01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson08 - BestSolutionFromKata", "Lesson8 - BestSolutionFromKata\Lesson08 - BestSolutionFromKata.csproj", "{F5571F77-061C-4252-9C1D-729FFE3F0E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson09 - WhoLikesIt", "Lesson9 - WhoLikesIt\Lesson09 - WhoLikesIt.csproj", "{B4A56F39-2C49-4FFC-967D-F1EBCB79E502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson10 - passphrases", "Lesson10 - passphrases\Lesson10 - passphrases.csproj", "{461650A0-4C34-4511-A010-15B9EBFBF9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson10 - BestSolutionFromKata", "Lesson10 - BestSolutionFromKata\Lesson10 - BestSolutionFromKata.csproj", "{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +137,18 @@ Global
 		{F5571F77-061C-4252-9C1D-729FFE3F0E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5571F77-061C-4252-9C1D-729FFE3F0E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5571F77-061C-4252-9C1D-729FFE3F0E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A56F39-2C49-4FFC-967D-F1EBCB79E502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A56F39-2C49-4FFC-967D-F1EBCB79E502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A56F39-2C49-4FFC-967D-F1EBCB79E502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A56F39-2C49-4FFC-967D-F1EBCB79E502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461650A0-4C34-4511-A010-15B9EBFBF9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461650A0-4C34-4511-A010-15B9EBFBF9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461650A0-4C34-4511-A010-15B9EBFBF9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461650A0-4C34-4511-A010-15B9EBFBF9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

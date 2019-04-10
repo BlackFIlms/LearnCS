@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17E18B7A-5E6C-45D4-A7F7-9F53AA903CAB}</ProjectGuid>
+    <ProjectGuid>{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson6___Log</RootNamespace>
-    <AssemblyName>Lesson6 - Log</AssemblyName>
+    <RootNamespace>Lesson4___mini</RootNamespace>
+    <AssemblyName>Lesson4 - mini</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson6 - Log.cs" />
+    <Compile Include="Lesson04 - mini.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}</ProjectGuid>
+    <ProjectGuid>{55068C2A-627C-4787-BD76-6A5A21DD00E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson5___BestSolutionFromKata</RootNamespace>
-    <AssemblyName>Lesson5 - BestSolutionFromKata</AssemblyName>
+    <RootNamespace>Lesson5___BouncingBall</RootNamespace>
+    <AssemblyName>Lesson5 - BouncingBall</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson5 - BestSolutionFromKata.cs" />
+    <Compile Include="Lesson05 - BouncingBall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

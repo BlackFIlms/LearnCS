@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BC07966-4C05-4E29-87BF-1AE6F449C821}</ProjectGuid>
+    <ProjectGuid>{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson2___Even_or_Odd</RootNamespace>
-    <AssemblyName>Lesson2 - Even or Odd</AssemblyName>
+    <RootNamespace>Lesson10___BestSolutionFromKata</RootNamespace>
+    <AssemblyName>Lesson10 - BestSolutionFromKata</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson2 - Even or Odd.cs" />
+    <Compile Include="Lesson10 - BestSolutionFromKata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

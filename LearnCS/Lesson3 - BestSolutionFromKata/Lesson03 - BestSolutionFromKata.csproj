@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3A71BE41-5002-44B8-BFEE-6651A2FE532E}</ProjectGuid>
+    <ProjectGuid>{899CD209-7803-4471-A3B5-EA2129D9A04E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson4___PrinterErrors</RootNamespace>
-    <AssemblyName>Lesson4 - PrinterErrors</AssemblyName>
+    <RootNamespace>Lesson3___BestSolutionFromKata</RootNamespace>
+    <AssemblyName>Lesson3 - BestSolutionFromKata</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson4 - PrinterErrors.cs" />
+    <Compile Include="Lesson03 - BestSolutionFromKata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{321B0A1B-5D22-4535-A933-4CF4C98E1C48}</ProjectGuid>
+    <ProjectGuid>{461650A0-4C34-4511-A010-15B9EBFBF9F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson4___BestSolutionFromKata</RootNamespace>
-    <AssemblyName>Lesson4 - BestSolutionFromKata</AssemblyName>
+    <RootNamespace>Lesson10___passphrases</RootNamespace>
+    <AssemblyName>Lesson10 - passphrases</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson4 - BestSolutionFromKata.cs" />
+    <Compile Include="Lesson10 - passphrases.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

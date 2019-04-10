@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}</ProjectGuid>
+    <ProjectGuid>{B4A56F39-2C49-4FFC-967D-F1EBCB79E502}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson1_only_System_namespace____SquareDigits_9119</RootNamespace>
-    <AssemblyName>Lesson1%28only System namespace%29 - SquareDigits 9119</AssemblyName>
+    <RootNamespace>Lesson9___WhoLikesIt</RootNamespace>
+    <AssemblyName>Lesson9 - WhoLikesIt</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson1%28only System namespace%29 - SquareDigits 9119.cs" />
+    <Compile Include="Lesson09 - WhoLikesIt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

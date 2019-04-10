@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61EBA46B-7A9E-431E-B8C2-E5CA170A169B}</ProjectGuid>
+    <ProjectGuid>{5BC07966-4C05-4E29-87BF-1AE6F449C821}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson8___GoodVsEvil</RootNamespace>
-    <AssemblyName>Lesson8 - GoodVsEvil</AssemblyName>
+    <RootNamespace>Lesson2___Even_or_Odd</RootNamespace>
+    <AssemblyName>Lesson2 - Even or Odd</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson8 - GoodVsEvil.cs" />
+    <Compile Include="Lesson02 - Even or Odd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

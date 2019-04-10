@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F5571F77-061C-4252-9C1D-729FFE3F0E01}</ProjectGuid>
+    <ProjectGuid>{5E875ABA-B224-4FBF-8C15-0A5888217DAD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson8___BestSolutionFromKata</RootNamespace>
-    <AssemblyName>Lesson8 - BestSolutionFromKata</AssemblyName>
+    <RootNamespace>Lesson3___WorksAtErrors</RootNamespace>
+    <AssemblyName>Lesson3 - WorksAtErrors</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson8 - BestSolutionFromKata.cs" />
+    <Compile Include="Lesson03 - WorksAtErrors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B9AB96C-94AE-4A38-9846-CBB6FAB3BB22}</ProjectGuid>
+    <ProjectGuid>{2D4E3790-EB44-4187-9713-3B8655217A26}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson4___mini</RootNamespace>
-    <AssemblyName>Lesson4 - mini</AssemblyName>
+    <RootNamespace>Lesson3___Smallest_number_from_Array</RootNamespace>
+    <AssemblyName>Lesson3 - Smallest number from Array</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson4 - mini.cs" />
+    <Compile Include="Lesson03 - Smallest number from Array.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

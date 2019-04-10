@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29FC25B1-86C7-42E1-8D0B-F93ED7068805}</ProjectGuid>
+    <ProjectGuid>{F7A76DB7-9762-4692-86EB-AA99DFE9DE9B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson7___SumOfPositive</RootNamespace>
-    <AssemblyName>Lesson7 - SumOfPositive</AssemblyName>
+    <RootNamespace>Lesson5___BestSolutionFromKata</RootNamespace>
+    <AssemblyName>Lesson5 - BestSolutionFromKata</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson7 - SumOfPositive.cs" />
+    <Compile Include="Lesson05 - BestSolutionFromKata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

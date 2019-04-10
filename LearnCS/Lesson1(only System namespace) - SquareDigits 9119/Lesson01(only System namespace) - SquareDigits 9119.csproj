@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5E875ABA-B224-4FBF-8C15-0A5888217DAD}</ProjectGuid>
+    <ProjectGuid>{ECDF961D-72A9-4A2D-9DDE-3A632DE542E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson3___WorksAtErrors</RootNamespace>
-    <AssemblyName>Lesson3 - WorksAtErrors</AssemblyName>
+    <RootNamespace>Lesson1_only_System_namespace____SquareDigits_9119</RootNamespace>
+    <AssemblyName>Lesson1%28only System namespace%29 - SquareDigits 9119</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson3 - WorksAtErrors.cs" />
+    <Compile Include="Lesson01%28only System namespace%29 - SquareDigits 9119.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
