@@ -55,6 +55,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson10 - passphrases", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson10 - BestSolutionFromKata", "Lesson10 - BestSolutionFromKata\Lesson10 - BestSolutionFromKata.csproj", "{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson11 - BitCounting", "Lesson11 - BitCounting\Lesson11 - BitCounting.csproj", "{9D74D016-F5D0-490E-AE7E-09855616CA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12 - ValidParentheses", "Lesson12 - ValidParentheses\Lesson12 - ValidParentheses.csproj", "{BF17943B-73D2-4A25-AAAD-8C428E61B43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12 - BestSolutionFromKata", "Lesson12 - BestSolutionFromKata\Lesson12 - BestSolutionFromKata.csproj", "{0B01902A-65B6-45DB-9650-F4231749E895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +155,18 @@ Global
 		{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA979C0F-7799-4813-9D92-A1B9D6DDE87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D74D016-F5D0-490E-AE7E-09855616CA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D74D016-F5D0-490E-AE7E-09855616CA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D74D016-F5D0-490E-AE7E-09855616CA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D74D016-F5D0-490E-AE7E-09855616CA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF17943B-73D2-4A25-AAAD-8C428E61B43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF17943B-73D2-4A25-AAAD-8C428E61B43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF17943B-73D2-4A25-AAAD-8C428E61B43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF17943B-73D2-4A25-AAAD-8C428E61B43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B01902A-65B6-45DB-9650-F4231749E895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B01902A-65B6-45DB-9650-F4231749E895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B01902A-65B6-45DB-9650-F4231749E895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B01902A-65B6-45DB-9650-F4231749E895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
