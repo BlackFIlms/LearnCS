@@ -54,11 +54,11 @@ public sealed class Program : MyGridProgram
         //Поиск антенны, создание и отправка сообщения
         if (FindBlockByPartOfName(antennaName).Count == 1)
         {
-            foreach (IMyRadioAntenna antenna in FindBlockByPartOfName(antennaName))
+            foreach (IMyIntergridCommunicationSystem antenna in FindBlockByPartOfName(antennaName))
             {
                 message = "Sensors pos:" + "\r\n" + sensCoord;
                 Display(message, nameFloorPosStorage);
-                antenna.TransmitMessage(message, MyTransmitTarget.Owned);
+                antenna.SendBroadcastMessage("tag", message);
             }
         }
         else if (FindBlockByPartOfName(antennaName).Count > 1)
@@ -87,11 +87,11 @@ public sealed class Program : MyGridProgram
         IMyTextPanel myTextPanel = GridTerminalSystem.GetBlockWithName(lcdName) as IMyTextPanel;
         if (!lcdClear)
         {
-            myTextPanel.WritePublicText(text + "\r\n", true);
+            myTextPanel.WriteText(text + "\r\n", true);
         }
         else
         {
-            myTextPanel.WritePublicText("");
+            myTextPanel.WriteText("");
         }
     }
     //Создаёт лист блоков в имени которых содержится текст из переменной.

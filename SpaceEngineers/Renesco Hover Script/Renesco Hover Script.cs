@@ -26,7 +26,6 @@ public sealed class Program : MyGridProgram
     List<IMyGyro> gyroList;
     List<IMyTerminalBlock> thrList;
     List<IMyBatteryBlock> batList;
-    IMyTextPanel myTextPanel;
 
     //
     double DesiredForwardVelocity = 0;
@@ -47,13 +46,13 @@ public sealed class Program : MyGridProgram
         GridTerminalSystem.GetBlocksOfType<IMyGyro>(gyroList);
 
         thrList = new List<IMyTerminalBlock>();
-        thrList = FindBlockByPartOfName("Атмосферный ускоритель");
+        thrList = FindBlockByPartOfName("[ThrDown]");
 
         batList = new List<IMyBatteryBlock>();
         GridTerminalSystem.GetBlocksOfType<IMyBatteryBlock>(batList);
 
-        RemCon = GridTerminalSystem.GetBlockWithName("Удаленное управление [RemCon]") as IMyShipController;
-
+        RemCon = GridTerminalSystem.GetBlockWithName("Seat") as IMyShipController;
+        
         Runtime.UpdateFrequency = UpdateFrequency.Update1;
     }
 
@@ -93,7 +92,7 @@ public sealed class Program : MyGridProgram
 
         //Защита крафта от падений.
         //Защита от резкого роста высоты (при пролёте над оврагами, резкий спуск с горы).
-
+        
         //Защита от разряда баттарей.
         foreach (IMyBatteryBlock bat in batList)
         {
@@ -107,17 +106,16 @@ public sealed class Program : MyGridProgram
             DesiredElevation = 0;
         }
         //Вывод сервисной информации.
-        Display("", "parserLCD", true);
-        Display("Speed: " + DesiredForwardVelocity + "\r\n", "parserLCD");
-        Display("Height: " + DesiredElevation, "parserLCD");
-        Display("DeltaElevation: " + DeltaElevation, "parserLCD");
-        Display("BatteryCharged: " + BatteryCharged, "parserLCD");
+        Display("", "infoLCD", true);
+        Display("Speed: " + DesiredForwardVelocity + "\r\n", "infoLCD");
+        Display("Height: " + DesiredElevation, "infoLCD");
+        Display("DeltaElevation: " + DeltaElevation, "infoLCD");
+        Display("BatteryCharged: " + BatteryCharged, "infoLCD");
 
         //Считаем косинус угла наклона крафта
         float TiltCos = (float)RemCon.WorldMatrix.Down.Dot(GravNorm);
         //Считаем тягу
         float Thrust = (float)((1 + (DeltaElevation * kV - VerticalVelocity) * kA) * GravityVector.Length() * RemCon.CalculateShipMass().PhysicalMass / TiltCos);
-        
         if (Thrust <= 0)
             Thrust = 1;
         /*
@@ -168,9 +166,6 @@ public sealed class Program : MyGridProgram
         foreach (IMyThrust thr in thrList)
         {
             thr.ThrustOverride = Thrust / thrList.Count;
-
-            Display("TO: " + (thr.ThrustOverride / thrList.Count).ToString(), "parserLCD");
-            Display("MT: " + thr.MaxThrust.ToString(), "parserLCD");
         }
 
     }
@@ -199,5 +194,4 @@ public sealed class Program : MyGridProgram
         GridTerminalSystem.SearchBlocksOfName(blockName, blockList);
         return blockList;
     }
-
 }
